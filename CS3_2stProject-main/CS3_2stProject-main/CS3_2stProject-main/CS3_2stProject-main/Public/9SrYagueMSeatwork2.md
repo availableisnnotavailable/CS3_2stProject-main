@@ -7,7 +7,7 @@
   <style>
     body { 
       font-family: Arial, sans-serif; 
-      height: 2000px; /* Added height to test Step 2 (Fixed) scrolling */
+      height: 2000px;
     }
 
     .header, .footer {
@@ -17,7 +17,7 @@
 
     .footer {
       opacity: 0.5;
-      /* Step 2: Fixed Positioning */
+
       position: fixed; 
       bottom: 0; 
       width: 100%;
@@ -27,7 +27,7 @@
       background: lightgreen;
       width: 150px;
       height: 200px;
-      /* Step 1: Relative Positioning */
+   
       position: relative; 
       top: 20px; 
       left: 20px;
@@ -37,7 +37,7 @@
       background: lightyellow;
       width: 300px;
       height: 200px;
-      /* Step 3 & Challenge: Absolute and Relative */
+    
       position: absolute; 
       top: 66px; 
       left: 200px;
